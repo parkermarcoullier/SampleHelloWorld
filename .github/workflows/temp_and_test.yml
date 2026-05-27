@@ -9,6 +9,7 @@ jobs:
         uses: astral-sh/setup-uv@v5
       - name: install dependencies
         run: |
+          uv lock
           uv sync
       - name: run tests
         run: |
