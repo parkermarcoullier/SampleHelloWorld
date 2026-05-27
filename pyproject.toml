@@ -6,7 +6,3 @@ dependencies = [
     "fastapi",
     "uvicorn",
 ]
-
-[build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
